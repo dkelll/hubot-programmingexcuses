@@ -1,21 +1,22 @@
 {
-  "name": "hubot-codingexcuses",
+  "name": "hubot-programmingexcuses",
   "version": "1.0.0",
-  "author": "Jon Ursenbach <jon@ursenba.ch>",
-  "description": "A Hubot plugin to get a random excuse from Coding Excuses.",
+  "author": "dkel",
+  "description": "A Hubot plugin show a random excuse from the Programming Excuses site.",
   "keywords": [
     "github",
     "hubot",
     "script",
-    "coding excuses"
+    "programming excuses"
   ],
   "licenses": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jonursenbach/hubot-codingexcuses.git"
+    "url": "https://github.com/dkelll/hubot-programmingexcuses.git"
   },
   "main": "index.coffee",
   "dependencies": {
-    "request": "^2.38.0"
+    "cheerio": "^0.7.0",
+    "he": "^0.4.1"
   }
 }

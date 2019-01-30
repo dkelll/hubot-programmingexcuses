@@ -3,7 +3,4 @@ path = require 'path'
 
 module.exports = (robot, scripts) ->
   scriptsPath = path.resolve(__dirname, 'src')
-  if scripts? and '*' not in scripts
-    robot.loadFile(scriptsPath, 'codingexcuses.coffee') if script in scripts
-  else
-    robot.loadFile(scriptsPath, 'codingexcuses.coffee')
+  robot.loadFile(scriptsPath, 'programmingexcuses.coffee')

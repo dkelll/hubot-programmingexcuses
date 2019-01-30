@@ -1,12 +1,13 @@
-## hubot-codingexcuses [![NPM version](https://badge.fury.io/js/hubot-codingexcuses.png)](http://badge.fury.io/js/hubot-codingexcuses)
+## hubot-programmingexcuses
 
-A [Hubot](https://github.com/github/hubot) plugin to get a random excuse from [Coding Excuses](http://codingexcuses.com).
+
+(WORK IN PROGRESS)
+A [Hubot](https://github.com/github/hubot) plugin to get a random excuse from [Programming Excuses](http://programmingexcuses.com).
+
+This is a fork of [hubot-codingexcuses](https://github.com/erunion/hubot-codingexcuses) which referenced the codingexcuses.com site. That site had some issues at one point, so I found a similar site and rebuilt the hubot script to use the programmingexcuses.com site.
 
 ### Usage
 
-    hubot excuse - Pulls a random excuse from http://codingexcuses.com
+    hubot excuse - Pulls a random excuse from http://programmingexcuses.com
 
 ### Installation
-1. `npm install hubot-codingexcuses --save`
-2. Add `"hubot-codingexcuses"` to your `external-scripts.json` file.
-3. Reboot Hubot.
